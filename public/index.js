@@ -5,7 +5,7 @@ import App2 from '../src/App2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App2 />
   </React.StrictMode>,
   document.getElementById('root')
 );

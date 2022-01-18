@@ -1,7 +1,7 @@
 import { getValue } from "@testing-library/user-event/dist/utils";
 import React from "react";
-import Create from './Create'
-import Room from './Room'
+import Create from '/Create'
+import Room from '/Room'
 import { useState,useEffect } from 'react';
 import { Consumer } from './ContextAPI'
 import { useNavigate,useLocation } from "react-router-dom";

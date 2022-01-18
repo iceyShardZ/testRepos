@@ -1,8 +1,8 @@
 
 import './App.css';
 import { useState,useEffect } from 'react';
-import Main from './components/Main'
-import Room from './components/Room'
+import Main from '/components/Main'
+import Room from '/components/Room'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Provider } from './components/ContextAPI';
 import { BrowserRouter as Router, Route, Routes, Link, useNavigate, useLocation } from "react-router-dom";

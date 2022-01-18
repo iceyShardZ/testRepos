@@ -14,7 +14,14 @@ function App() {
 
   const [Data, setData] = useState([]);
 
+  useEffect(() => {
 
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(response => response.json())
+    .then((data)=>setData(data))
+    .then(json => console.log(json))
+    
+ });
 
  const getUserId = (userID) =>{
 
